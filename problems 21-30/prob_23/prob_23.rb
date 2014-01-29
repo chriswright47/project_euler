@@ -1,5 +1,10 @@
 # Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
 
+
+# this solution is very slow!!
+# (takes a number of hours to run to completion)
+
+
 def is_abundant?(n)
   factors(n).reduce(0, :+) > n
 end
